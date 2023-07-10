@@ -1,5 +1,6 @@
 package org.code.challenges.leetcode;
 
+//https://leetcode.com/problems/valid-palindrome/
 public class Palindrome {
 
     public static boolean checkIfPalindrome(String s) {
