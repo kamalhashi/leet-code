@@ -3,7 +3,7 @@ package org.code.challenges.leetcode;
 
 //https://leetcode.com/problems/is-subsequence/
 public class Subsequence {
-    public boolean isSubsequence(String s, String t) {
+    public static  boolean isSubsequence(String s, String t) {
         int i = 0;
         int j = 0;
 
@@ -14,5 +14,9 @@ public class Subsequence {
             j++;
         }
         return i == s.length();
+    }
+
+    public static void main (String[] args){
+        Subsequence.isSubsequence("azc", "ahbgdc");
     }
 }
