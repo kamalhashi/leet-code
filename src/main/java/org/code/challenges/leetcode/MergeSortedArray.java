@@ -35,7 +35,6 @@ public class MergeSortedArray {
     public static void main(String[] args) {
         System.out.println(MergeSortedArray.combine(new int[]{1, 4, 7, 20}, new int[]{3, 5, 6}));
         System.out.println(MergeSortedArray.combine(new int[]{1,2,3,0,0,0}, new int[]{2,5,6}));
-
     }
 
 }
