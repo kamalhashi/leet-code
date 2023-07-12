@@ -1,6 +1,5 @@
 package org.code.challenges.leetcode;
 
-
 //https://leetcode.com/problems/is-subsequence/
 public class Subsequence {
     public static  boolean isSubsequence(String s, String t) {
@@ -17,6 +16,6 @@ public class Subsequence {
     }
 
     public static void main (String[] args){
-        Subsequence.isSubsequence("azc", "ahbgdc");
+        System.out.println(Subsequence.isSubsequence("azc", "hbgdca"));
     }
 }
