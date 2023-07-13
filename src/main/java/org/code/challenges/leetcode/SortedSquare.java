@@ -32,6 +32,7 @@ public class SortedSquare {
         int left = 0;
 
         while (left <= right) {
+
             if (Math.abs(nums[right]) > Math.abs(nums[left])) {
                 result[index] = nums[right] * nums[right];
                 right--;
@@ -43,6 +44,7 @@ public class SortedSquare {
         }
         return result;
     }
+
     public static void main(String[] args) {
         System.out.println(Arrays.toString(solutionTwo(new int[]{-3, -2, -1, 4, 5, 6})));
     }
