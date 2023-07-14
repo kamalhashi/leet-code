@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode;
+package org.code.challenges.leetcode.arrays.easy;
 
 import java.util.Arrays;
 

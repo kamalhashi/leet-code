@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode;
+package org.code.challenges.leetcode.arrays.easy;
 
 //https://leetcode.com/problems/is-subsequence/
 public class Subsequence {
