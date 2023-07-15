@@ -3,9 +3,9 @@ package org.code.challenges.leetcode.arrays.medium.slidewindow;
 /**
  * https://leetcode.com/problems/subarray-product-less-than-k/
  */
-public class SubarrayProductLessThanK {
+public class SubArrayProductLessThanK {
 
-    public static int numSubarrayProductLessThanK(int[] nums, int k) {
+    public static int numSubArrayProductLessThanK(int[] nums, int k) {
         if (k <= 1) {
             return 0;
         }
@@ -17,7 +17,7 @@ public class SubarrayProductLessThanK {
         for (int right = 0; right < nums.length; right++) {
             curr *= nums[right];
             while (curr >= k) {
-                curr /= nums[left];
+                curr = curr / nums[left];
                 left++;
             }
             ans += right - left + 1;
@@ -28,6 +28,6 @@ public class SubarrayProductLessThanK {
 
 
     public static void main(String[] args) {
-        System.out.println(numSubarrayProductLessThanK(new int[]{10, 5, 2, 6}, 100));
+        System.out.println(numSubArrayProductLessThanK(new int[]{10, 5, 2, 6}, 100));
     }
 }
