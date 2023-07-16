@@ -10,7 +10,7 @@ public class StaticWindowLargestSumSubArray {
         int curr = 0;
 
 
-        for (int i = 0; i < k ; i++) {
+        for (int i = 0; i < k ; ++i) {
             curr += nums[i];
         }
         int ans = curr;
@@ -23,6 +23,10 @@ public class StaticWindowLargestSumSubArray {
     }
 
     public static void main(String[] args) {
+
+        int a = 1;
+        System.out.println(a++);
         System.out.println(findBestSubArray(new int[]{3, -1, 4, 12 , -8, 5, 6}, 4));
+        System.out.println(a);
     }
 }
