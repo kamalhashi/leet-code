@@ -20,8 +20,6 @@ public class NumberOfWaysToSplitArray {
             long leftSelection = prefix[i];
             long rightSelection = prefix[n - 1] - prefix[i];
             if (leftSelection > rightSelection) {
-                System.out.println("leftSelection:" + leftSelection);
-                System.out.println("rightSelection:" + rightSelection);
                 ans++;
             }
         }
