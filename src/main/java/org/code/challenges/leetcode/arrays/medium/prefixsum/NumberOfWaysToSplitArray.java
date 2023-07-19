@@ -13,7 +13,6 @@ public class NumberOfWaysToSplitArray {
             prefix[i] = nums[i] + prefix[i - 1];
         }
 
-
         int ans = 0;
 
         for (int i = 0; i < n - 1; i++) {
@@ -23,7 +22,6 @@ public class NumberOfWaysToSplitArray {
                 ans++;
             }
         }
-
         return ans;
     }
 
