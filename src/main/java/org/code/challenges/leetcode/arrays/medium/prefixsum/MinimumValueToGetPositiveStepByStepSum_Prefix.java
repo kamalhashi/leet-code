@@ -1,7 +1,7 @@
 package org.code.challenges.leetcode.arrays.medium.prefixsum;
 
 //Minimum Value to Get Positive Step by Step Sum
-public class MinimumValueToGetPositiveStepByStepSum {
+public class MinimumValueToGetPositiveStepByStepSum_Prefix {
     public static int minStartValue_PrefixSolution(int[] nums) {
         int sum = 0;
         int minPrefixSum = 0;
