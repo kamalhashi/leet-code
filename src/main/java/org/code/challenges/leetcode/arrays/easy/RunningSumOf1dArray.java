@@ -2,6 +2,7 @@ package org.code.challenges.leetcode.arrays.easy;
 
 import java.util.Arrays;
 
+//Running Sum of 1d Array
 public class RunningSumOf1dArray {
     public static int[] runningSumWithArray(int[] nums) {
         int[] result = new int[nums.length];

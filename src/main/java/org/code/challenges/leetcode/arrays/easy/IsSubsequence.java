@@ -1,6 +1,7 @@
 package org.code.challenges.leetcode.arrays.easy;
 
-//https://leetcode.com/problems/is-subsequence/
+//Is Subsequence
+// https://leetcode.com/problems/is-subsequence/
 public class IsSubsequence {
     public static  boolean isSubsequence(String s, String t) {
         int i = 0;
