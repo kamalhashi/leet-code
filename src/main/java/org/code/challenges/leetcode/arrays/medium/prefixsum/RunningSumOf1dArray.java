@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.arrays.easy;
+package org.code.challenges.leetcode.arrays.medium.prefixsum;
 
 import java.util.Arrays;
 
