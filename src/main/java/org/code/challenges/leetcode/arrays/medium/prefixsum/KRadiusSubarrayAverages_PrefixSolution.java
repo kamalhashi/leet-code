@@ -50,6 +50,8 @@ public class KRadiusSubarrayAverages_PrefixSolution {
             prefixSum[i] = prefixSum[i - 1] + nums[i];
         }
 
+        System.out.println(Arrays.toString(prefixSum));
+
         for (int i = k; i < (n - k); i++) {
             int leftBound = i - k;
             int rightBound = i + k;
@@ -65,6 +67,6 @@ public class KRadiusSubarrayAverages_PrefixSolution {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(getAverages2(new int[]{2, 1, 3, 4, 5, 8, 1}, 2)));
+        System.out.println(Arrays.toString(getAverages(new int[]{2, 1, 3, 4, 5, 8, 1}, 2)));
     }
 }
