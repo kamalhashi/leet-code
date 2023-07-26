@@ -1,8 +1,9 @@
-package org.code.challenges.leetcode.arrays.easy;
+package org.code.challenges.leetcode.arrays.easy.twopointers;
 
 import java.util.ArrayList;
 import java.util.List;
 
+//https://leetcode.com/problems/merge-sorted-array/
 public class MergeSortedArray {
 
     public static List<Integer> combine(int[] arr1, int[] arr2) {

@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.arrays.easy;
+package org.code.challenges.leetcode.arrays.easy.twopointers;
 
 
 public class ReverseString {

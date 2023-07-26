@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.arrays.easy;
+package org.code.challenges.leetcode.arrays.easy.slidewindow;
 
 //https://leetcode.com/problems/maximum-average-subarray-i/
 public class MaximumAverageSubarrayI {

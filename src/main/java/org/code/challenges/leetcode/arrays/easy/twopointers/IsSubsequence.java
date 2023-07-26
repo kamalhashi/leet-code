@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.arrays.easy;
+package org.code.challenges.leetcode.arrays.easy.twopointers;
 
 //Is Subsequence
 // https://leetcode.com/problems/is-subsequence/
