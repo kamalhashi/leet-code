@@ -31,9 +31,8 @@ public class MissingNumber {
             numSet.add(num);
 
         }
-        int expectedCountNumber = nums.length + 1;
 
-        for (int i = 0; i < expectedCountNumber; i++) {
+        for (int i = 0; i <=nums.length; i++) {
             if(!numSet.contains(i)){
                 return  i;
             }
