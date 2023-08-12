@@ -23,6 +23,6 @@ public class SumLongestSubArray {
     }
 
     public static void main(String[] args) {
-        System.out.println(findLength(new int[]{1, 2, 1, 2, 1}, 3));
+        System.out.println(findLength(new int[]{10, 12, 14, 15, 16}, 3));
     }
 }
