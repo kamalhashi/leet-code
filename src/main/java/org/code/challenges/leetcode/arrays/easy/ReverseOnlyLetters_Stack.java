@@ -3,7 +3,8 @@ package org.code.challenges.leetcode.arrays.easy;
 import java.util.Stack;
 
 //https://leetcode.com/problems/reverse-only-letters
-public class ReverseOnlyLetters_Stack {
+public class
+ReverseOnlyLetters_Stack {
     public static String reverseOnlyLetters(String S) {
         Stack<Character> letters = new Stack();
         for (char c : S.toCharArray())

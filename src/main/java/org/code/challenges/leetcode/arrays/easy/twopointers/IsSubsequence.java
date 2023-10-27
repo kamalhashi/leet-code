@@ -17,6 +17,6 @@ public class IsSubsequence {
     }
 
     public static void main (String[] args){
-        System.out.println(IsSubsequence.isSubsequence("azc", "hbgdca"));
+        System.out.println(IsSubsequence.isSubsequence("abc", "abcda"));
     }
 }
