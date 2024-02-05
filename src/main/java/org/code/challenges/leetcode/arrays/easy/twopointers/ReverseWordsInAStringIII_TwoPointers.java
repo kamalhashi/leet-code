@@ -29,14 +29,13 @@ public class ReverseWordsInAStringIII_TwoPointers {
                     startIndex++;
                     endIndex--;
                 }
-                lastSpaceIndex = strIndex;
+               lastSpaceIndex = strIndex;
             }
         }
         return new String(chArray);
     }
 
-
     public static void main(String[] args) {
-        System.out.println(reverseWords("Let's take LeetCode contest"));
+        System.out.println(reverseWords("Kamal Hashi Ali"));
     }
 }

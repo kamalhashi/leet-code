@@ -5,9 +5,9 @@ import java.util.Set;
 
 //https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
 public class Pangram {
-    public boolean checkIfPangram_FindLettersOneByOne(String sentence) {
+    public static boolean checkIfPangram_FindLettersOneByOne(String sentence) {
         for (int i = 0; i < 26; i++) {
-            char currChar = (char) ('a' + 1);
+            char currChar = (char) ('a' + i);
             if (sentence.indexOf(currChar) == -1)
                 return false;
         }
@@ -24,8 +24,8 @@ public class Pangram {
 
 
     public static void main (String[] args){
-        System.out.println(checkIfPangram_Set("thequickbrownfoxjumpsoverthelazydog"));
-        System.out.println(checkIfPangram_Set("leetcode"));
+        System.out.println(checkIfPangram_FindLettersOneByOne("thequickbrownfoxjumpsoverthelazydo["));
+        System.out.println(checkIfPangram_FindLettersOneByOne("letcod"));
 
     }
 }

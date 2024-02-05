@@ -9,6 +9,7 @@ public class MinimumValueToGetPositiveStepByStepSum_Prefix {
             sum += number;
             minPrefixSum = Math.min(minPrefixSum, sum);
         }
+        System.out.println(minPrefixSum);
         return -minPrefixSum + 1;
     }
 
