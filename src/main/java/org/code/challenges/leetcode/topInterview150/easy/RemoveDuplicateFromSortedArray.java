@@ -1,5 +1,8 @@
 package org.code.challenges.leetcode.topInterview150.easy;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RemoveDuplicateFromSortedArray {
     public static int solution1(int[] nums) {
         int j = 1;
