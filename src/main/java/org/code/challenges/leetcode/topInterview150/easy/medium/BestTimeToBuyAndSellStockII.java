@@ -25,9 +25,38 @@ public class BestTimeToBuyAndSellStockII {
 
     }
 
+    public static int solution2(int[] prices) {
+        int total = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                total += prices[i] - prices[i - 1];
+            }
+        }
+        return total;
+    }
+
+
+    //Approach 2: Peak Valley Approach with for loop
+    public static int solution3(int[] prices) {
+        int total = 0;
+        int valley = Integer.MAX_VALUE;
+        int peak = valley;
+
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] < peak) {
+                total += peak - valley;
+                valley = prices[i];
+                peak = valley;
+            } else {
+                peak = prices[i];
+            }
+        }
+        total += peak - valley;
+        return total;
+    }
+
     public static void main(String[] args) {
         int[] prices = {7, 1, 5, 6, 9, 10};
-        System.out.println(solution1(prices));
-
+        System.out.println(solution3(prices));
     }
 }
