@@ -3,7 +3,6 @@ package org.code.challenges.leetcode.topInterview150.easy;
 
 public class LongestCommonPrefix {
 
-
     //Horizantal
     public String solutionOne(String[] strs) {
         if (strs.length == 0)
