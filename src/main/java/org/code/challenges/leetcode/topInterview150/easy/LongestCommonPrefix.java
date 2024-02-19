@@ -2,6 +2,7 @@ package org.code.challenges.leetcode.topInterview150.easy;
 
 public class LongestCommonPrefix {
 
+
     //Horizantal
     public String solutionOne(String[] strs) {
         if (strs.length == 0)
@@ -16,15 +17,10 @@ public class LongestCommonPrefix {
             if (prefix.isEmpty()) {
                 return "";
             }
+
         }
         return prefix;
     }
 
-    public String solution2(String[] strs) {
-        if (strs == null || strs.length == 0)
-            return "";
 
-
-        return "";
-    }
 }
