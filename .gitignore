@@ -1,12 +1,8 @@
-/build.gradle
-/gradlew
-/gradlew.bat
-/settings.gradle
-/gradle/
 .idea/
-.gradle/
 /build/
 /leecode-java.iml
 /out/
 leet-code.iml
-test
+# Gradle
+.gradle
+!gradle-wrapper.jar
