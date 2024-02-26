@@ -14,14 +14,14 @@ class ValidateBinarySearchTreeTest {
 
     }
 
-    public static ValidateBinarySearchTree.TreeNode createDummyBinarySearchTree() {
-        ValidateBinarySearchTree.TreeNode root = new ValidateBinarySearchTree.TreeNode(5);
-        root.left = new ValidateBinarySearchTree.TreeNode(3);
-        root.right = new ValidateBinarySearchTree.TreeNode(8);
-        root.left.left = new ValidateBinarySearchTree.TreeNode(2);
-        root.left.right = new ValidateBinarySearchTree.TreeNode(4);
-        root.right.left = new ValidateBinarySearchTree.TreeNode(6);
-        root.right.right = new ValidateBinarySearchTree.TreeNode(9);
+    public static TreeNode createDummyBinarySearchTree() {
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(3);
+        root.right = new TreeNode(8);
+        root.left.left = new TreeNode(2);
+        root.left.right = new TreeNode(4);
+        root.right.left = new TreeNode(6);
+        root.right.right = new TreeNode(9);
         return root;
     }
 }
