@@ -8,7 +8,7 @@ class LongestCommonPrefixTest {
     @Test
     void solution1() {
         String[] strs = {"flower", "flow", "flight"};
-        String result = LongestCommonPrefix.solution1(strs);
+        String result = LongestCommonPrefix.solution2(strs);
         Assertions.assertThat(result).isEqualTo("fl");
     }
 
