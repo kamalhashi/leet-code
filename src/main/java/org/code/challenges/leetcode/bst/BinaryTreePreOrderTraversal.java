@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
+//Pre-order traversal is to visit the root first. Then traverse the left subtree . Finally traverse the right subtree
 public class BinaryTreePreOrderTraversal {
 
     //iterations
@@ -29,7 +30,6 @@ public class BinaryTreePreOrderTraversal {
     }
 
 
-
     public static List<Integer> preorderTraversalWithStack(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> output = new ArrayList<>();
@@ -48,5 +48,22 @@ public class BinaryTreePreOrderTraversal {
             }
         }
         return output;
+    }
+
+
+    public static List<Integer> preorderTraversalWithRecursion(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        preorderTraversalWithRecursionHelper(root, result);
+        return result;
+    }
+
+
+    public static void preorderTraversalWithRecursionHelper(TreeNode root, List<Integer> result) {
+        if (root == null) {
+            return;
+        }
+        result.add(root.val);
+        preorderTraversalWithRecursionHelper(root.left, result);
+        preorderTraversalWithRecursionHelper(root.right, result);
     }
 }
