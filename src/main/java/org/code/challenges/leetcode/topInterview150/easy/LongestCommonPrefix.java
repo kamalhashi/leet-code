@@ -1,29 +1,23 @@
 package org.code.challenges.leetcode.topInterview150.easy;
 
-import java.net.Inet4Address;
 
 public class LongestCommonPrefix {
 
-    //Horizontal scan
-    public static String solution1(String[] strs) {
-        //Horizontal scan
-        if (strs.length == 0) {
+    //Horizantal
+    public String solutionOne(String[] strs) {
+        if (strs.length == 0)
             return "";
-        }
-
-        //Taking the first item as prefix
         String prefix = strs[0];
 
-        //Loop through all the items in the list
-        for (int index = 1; index < strs.length; index++) {
+        for (int i = 1; i < strs.length; i++) {
 
-            while (strs[index].indexOf(prefix) != 0) {
-
+            while (!strs[i].startsWith(prefix)) {
                 prefix = prefix.substring(0, prefix.length() - 1);
-                if (prefix.isBlank()) {
-                    return "";
-                }
             }
+            if (prefix.isEmpty()) {
+                return "";
+            }
+
         }
         return prefix;
     }
