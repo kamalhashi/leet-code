@@ -11,7 +11,7 @@ public class MajorityElement {
             counts.put(num, counts.getOrDefault(num, 0) + 1);
         }
         Map.Entry<Integer, Integer> majorityEntry = null;
-        for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {
+        for (var entry : counts.entrySet()) {
             if (majorityEntry == null || entry.getValue() > majorityEntry.getValue()) {
                 majorityEntry = entry;
             }
