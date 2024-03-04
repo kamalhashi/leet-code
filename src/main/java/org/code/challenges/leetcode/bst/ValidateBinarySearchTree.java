@@ -19,8 +19,11 @@ public class ValidateBinarySearchTree {
         }
         if (low != null && root.val <= low || (high != null && root.val >= high)) {
             return false;
+
         }
-        return validate(root.right, root.val, null) && validate(root.left, null, root.val);
+        var t= validate(root.right, root.val, null);
+        var t2= validate(root.left, null, root.val);
+        return t && t2;
     }
 
     public static boolean validate(TreeNode root, Integer low, Integer high, String s) {

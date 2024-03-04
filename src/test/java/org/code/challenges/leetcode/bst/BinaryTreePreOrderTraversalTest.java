@@ -19,6 +19,15 @@ class BinaryTreePreOrderTraversalTest {
         Assertions.assertThat(result).containsExactly(5, 3, 2, 4, 8, 6, 9);
     }
 
+    @Test
+    public void preorderTraversalWithRecursion() {
+        var result = BinaryTreePreOrderTraversal.preorderTraversalWithRecursion(createDummyBinarySearchTree());
+        Assertions.assertThat(result).containsExactly(5, 3, 2, 4, 8, 6, 9);
+    }
+
+
+
+
     public static TreeNode createDummyBinarySearchTree() {
         TreeNode root = new TreeNode(5);
         root.left = new TreeNode(3);

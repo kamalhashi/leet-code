@@ -50,7 +50,6 @@ public class BinaryTreePreOrderTraversal {
         return output;
     }
 
-
     public static List<Integer> preorderTraversalWithRecursion(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         preorderTraversalWithRecursionHelper(root, result);
