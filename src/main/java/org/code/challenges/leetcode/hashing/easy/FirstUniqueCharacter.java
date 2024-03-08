@@ -29,7 +29,7 @@ public class FirstUniqueCharacter {
         for (int i = 0; i < n; i++) {
             int index = s.charAt(i) - 'a';
             System.out.println(index);
-            count[index]++;
+            count[index] +=1;
         }
 
         for (int i = 0; i < n; i++) {
