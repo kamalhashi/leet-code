@@ -3,6 +3,7 @@ package org.code.challenges.leetcode.hashing.easy;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 //3005 Count Elements With Maximum Frequency
 public class MaxFrequencyElement {
@@ -22,6 +23,7 @@ public class MaxFrequencyElement {
 
         //Calculate the total frequencies of elements with the maximum frequency
         int frequencyOfMaxFrequency = 0;
+        
         for (int frequency : frequencies.values()) {
             if (frequency == maxFrequency) {
                 frequencyOfMaxFrequency++;
