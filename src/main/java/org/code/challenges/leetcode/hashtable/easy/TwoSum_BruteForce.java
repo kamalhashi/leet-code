@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.hashing.easy;
+package org.code.challenges.leetcode.hashtable.easy;
 
 //https://leetcode.com/problems/two-sum/
 

@@ -1,8 +1,7 @@
 package org.code.challenges.leetcode.hashing.easy;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.assertj.core.api.Assertions;
+import org.code.challenges.leetcode.hashtable.easy.MaxFrequencyElement;
 import org.junit.jupiter.api.Test;
 
 class MaxFrequencyElementTest {
