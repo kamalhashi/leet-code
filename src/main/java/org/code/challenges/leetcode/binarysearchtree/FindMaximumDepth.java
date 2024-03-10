@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.bst;
+package org.code.challenges.leetcode.binarysearchtree;
 
 public class FindMaximumDepth {
     private int answer = Integer.MIN_VALUE;

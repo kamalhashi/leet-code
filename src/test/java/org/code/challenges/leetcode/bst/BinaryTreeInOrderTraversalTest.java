@@ -2,6 +2,8 @@ package org.code.challenges.leetcode.bst;
 
 
 import org.assertj.core.api.Assertions;
+import org.code.challenges.leetcode.binarysearchtree.BinaryTreeInOrderTraversal;
+import org.code.challenges.leetcode.binarysearchtree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 class BinaryTreeInOrderTraversalTest {

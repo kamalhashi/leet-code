@@ -1,11 +1,9 @@
 package org.code.challenges.leetcode.bst.bsf;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import org.assertj.core.api.Assertions;
-import org.code.challenges.leetcode.bst.BinaryTreeLevelOrderTraversal;
-import org.code.challenges.leetcode.bst.TreeNode;
+import org.code.challenges.leetcode.binarysearchtree.BinaryTreeLevelOrderTraversal;
+import org.code.challenges.leetcode.binarysearchtree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 class BinaryTreeLevelOrderTraversalTest {

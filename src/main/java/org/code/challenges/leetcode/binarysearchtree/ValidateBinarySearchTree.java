@@ -1,6 +1,4 @@
-package org.code.challenges.leetcode.bst;
-
-import java.text.Normalizer;
+package org.code.challenges.leetcode.binarysearchtree;
 
 
 //https://leetcode.com/problems/validate-binary-search-tree/editorial/

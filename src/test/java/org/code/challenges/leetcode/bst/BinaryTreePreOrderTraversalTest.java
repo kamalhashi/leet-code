@@ -1,8 +1,8 @@
 package org.code.challenges.leetcode.bst;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.assertj.core.api.Assertions;
+import org.code.challenges.leetcode.binarysearchtree.BinaryTreePreOrderTraversal;
+import org.code.challenges.leetcode.binarysearchtree.TreeNode;
 import org.junit.jupiter.api.Test;
 
 class BinaryTreePreOrderTraversalTest {

@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.bst;
+package org.code.challenges.leetcode.binarysearchtree;
 
 import java.util.ArrayList;
 import java.util.List;

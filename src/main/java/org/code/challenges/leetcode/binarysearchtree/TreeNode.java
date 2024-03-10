@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.bst;
+package org.code.challenges.leetcode.binarysearchtree;
 
 public class TreeNode {
     public int val;

@@ -1,9 +1,9 @@
 package org.code.challenges.leetcode.bst;
 
 import org.assertj.core.api.Assertions;
+import org.code.challenges.leetcode.binarysearchtree.TreeNode;
+import org.code.challenges.leetcode.binarysearchtree.ValidateBinarySearchTree;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ValidateBinarySearchTreeTest {
 
