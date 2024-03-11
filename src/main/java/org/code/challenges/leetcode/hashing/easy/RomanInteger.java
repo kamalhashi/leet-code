@@ -1,4 +1,4 @@
-package org.code.challenges.leetcode.hashtable.easy;
+package org.code.challenges.leetcode.hashing.easy;
 
 import java.util.HashMap;
 import java.util.Map;

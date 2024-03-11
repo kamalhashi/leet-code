@@ -1,9 +1,8 @@
-package org.code.challenges.leetcode.hashtable.easy;
+package org.code.challenges.leetcode.hashing.easy;
 
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 //3005 Count Elements With Maximum Frequency
 public class MaxFrequencyElement {

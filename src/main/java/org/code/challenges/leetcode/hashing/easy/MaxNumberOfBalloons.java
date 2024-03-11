@@ -1,6 +1,4 @@
-package org.code.challenges.leetcode.hashtable.easy;
-
-import java.util.Arrays;
+package org.code.challenges.leetcode.hashing.easy;
 
 public class MaxNumberOfBalloons {
     public static int maxNumberOfBalloons(String text) {
